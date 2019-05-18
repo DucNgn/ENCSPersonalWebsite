@@ -10,7 +10,7 @@ img.displayed {
 }
 .CVAparallax {
   /* The image used */
-  background-image: url("./Image/CVABackground.jpg");
+  background-image: url("./logo/CVABackground.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -21,6 +21,21 @@ img.displayed {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.CUparallax {
+  /* The image used */
+  background-image: url("./logo/ConUBackground.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 /* floating home button */
@@ -83,3 +98,10 @@ a.float:hover + div.label-container{
 }
 
 /*END OF FLOATING BUTTON*/
+
+/* google map */
+ #CVAMap {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
