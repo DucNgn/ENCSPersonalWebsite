@@ -1,9 +1,10 @@
 <html lang = "en"> 
 <head> 
 <title> Duke's Personal Webpage</title>
-	
-<link rel="stylesheet" type="text/css" href="./style/style.css">
 
+<link rel="stylesheet" type="text/css" href="./style/switch.css">	
+<link id="pagestyle" rel="stylesheet" type="text/css" href="./style/style.css">	
+	
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 
 <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
@@ -11,19 +12,45 @@
 
 <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 
-	</head>
-<body>
-	<h1 id="welcome">Welcome to Duke's personal website </h1>
-		
+	
+<script type="text/javascript">
+	function swapSheet() {
+		var sheet = "./style/style.css";
+		if(document.getElementById('pagestyle').getAttribute('href') === sheet) {
+			sheet = "./style/darkmode.css";
+		} 
+		document.getElementById('pagestyle').setAttribute('href', sheet);
+	}
+	
+</script>
 
+	</head>
 	
+<body>
+	<h1 id="ctr">Welcome to Duke's personal website </h1>
 	
+	<!-- button swapping colour mode -->
+	<button class="button button-outline" onclick="swapSheet('./style/style.css')">Light mode</button>
+	<button class="button button-outline" onclick="swapSheet('./style/darkmode.css')">Dark mode</button>
 	
+	<!-- COURSES -->
+	<div class="container">
+	<div class="row">
+		<div class="column"> COMP 249: Object Oriented-Programming 1 </div>
+		<div class="column"> COMP 249: Object Oriented-Programming 2 </div>
+		<div class="column"> SOEN 287: Programming the world wide web </div>
+		
+		
+		</div>
 	
+	</div>
+		
+	<!-- FOOTER -->
 <footer>
-    <div>
+    <div id ="footer">
         <span>
 			<h3> Duc Nguyen (Duke) </h3>
+			<h3> Contact information</h3>
 			<h4> <a href="mailto:triduc.nguyen@mail.concordia.ca">Outlook email </a> 
 			</h4>
 			<h4> <a href="mailto:tr_uye@encs.concordia.ca"> ENCS email</a></h4>
@@ -36,5 +63,7 @@
         </span>
     </div>			
 </footer>
+		
+	</div>
 	</body>
 </html>
