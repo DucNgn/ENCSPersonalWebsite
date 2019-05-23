@@ -43,7 +43,7 @@
 	<h1 id="ctr">Chu Van An National High School For The Gifted</h1>
 	
 	<!-- button swapping colour mode -->
-	<button class="button button-outline" onclick="swapSheet('./style/style.css')">Switch theme mode</button>
+	<button id="colourBtn" class="button button-outline" onclick="swapSheet('./style/style.css')">Switch theme mode</button>
 	
 	<!-- LOGO -->
 	<img class="displayed" src="logo/Logo-cva.png" alt="CVA.logo">
@@ -74,7 +74,7 @@
 	
 
 
-
+<?php include '../share/footer.html'; ?>
 
 
 </body>
