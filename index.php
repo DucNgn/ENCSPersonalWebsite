@@ -30,7 +30,7 @@
 	 <input type="email" name="email" placeholder="abc@gmail.ca">
 	  
     <label>Message</label>
-    <textarea placeholder="Hi Duke, …" id="commentField"></textarea>
+    <textarea placeholder="Hi Duke, ..." id="commentField"></textarea>
 	 
     <div class="float-right">
       <input type="checkbox" id="confirmField">

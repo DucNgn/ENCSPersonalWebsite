@@ -31,7 +31,7 @@
 
 <body>
 	<!-- Floating button -->
-	<a href="../index.html" class="float">
+	<a href="../index.php" class="float">
         <i class="my-float"></i>
     </a>
     <div class="label-container">

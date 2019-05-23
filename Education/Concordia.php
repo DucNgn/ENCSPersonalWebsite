@@ -29,7 +29,7 @@
 
 <body>
 	<!-- Floating button -->
-	<a href="../index.html" class="float">
+	<a href="../index.php" class="float">
     <i class="my-float"></i>
     </a>
     <div class="label-container">
@@ -43,7 +43,7 @@
 	<button class="button button-outline" onclick="swapSheet('./style/style.css')">Switch theme mode</button>
 	
 	<!-- LOGO -->
-	<img class="displayed" src="logo/Concordia-logo.png" alt="concordia.logo" height="300">
+	<img class="displayed" src="logo/concordia-logo.png" alt="concordia.logo" height="300">
 	
 	<!--PARALLAX EFFECT -->
 	<div class="CUparallax"></div>
@@ -77,10 +77,5 @@
 	<?php include '../share/footer.html'; ?>
 
 	</body>
-
-
-
-
-
 
 </html>
