@@ -18,12 +18,13 @@
     <label>Name:</label>
     <input type="text" placeholder="Michale Jackson" id="nameField">
    
-	<label>Please select your title:</label>
-	<p>
-	  <label><input type ="radio" name ="title" value="Mr" checked ="checked" /> Mr. </label>
-	  <label><input type ="radio" name ="title" value="Mrs" checked ="checked" /> Mrs. </label>
-	  
-	  </p>
+	<label>Please select your title</label>
+    <select id="PersonTitle">
+      <option value="Mr">Mr.</option>
+      <option value="Mrs">Mrs.</option>
+      <option value="Miss">Miss</option>
+      <option value="no">other</option>
+    </select>
 	  
 	  <label>E-mail Address:</label>
 	 <input type="email" name="email" placeholder="abc@gmail.ca">
