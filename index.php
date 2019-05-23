@@ -12,7 +12,7 @@
 
 <br />
 
-<form>
+<form method="post" action ="RequestMess.php">
   <fieldset>
 	 <legend id="ctr"><h3> Leave me a message </h3> </legend>
     <label>Name:</label>
