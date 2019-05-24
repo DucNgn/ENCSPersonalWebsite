@@ -1,47 +1,9 @@
-<html lang="en" >
-	
-	
-<head>
-		<title>Concordia University</title>
-	
-<link id="pagestyle" rel="stylesheet" type="text/css" href="education.css">	
-	
+<?php include './EduShare/header.html'; ?>
+<?php include './EduShare/body.html' ; ?>
 
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-
-
-<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-
-
-<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
-
-<script type="text/javascript">
-	function swapSheet() {
-		var sheet = "education.css";
-		if(document.getElementById('pagestyle').getAttribute('href') === sheet) {
-			sheet = "educationDarkMode.css";
-		} 
-		document.getElementById('pagestyle').setAttribute('href', sheet);
-	}
-</script>
-	
-</head>
-
-<body>
-	<!-- Floating button -->
-	<a href="../index.php" class="float">
-    <i class="my-float"></i>
-    </a>
-    <div class="label-container">
-    <div class="label-text"> Home </div>
-    <i class="fa fa-play label-arrow"></i>
-    </div>
-	
-	
-	<h1 id="ctr">Concordia University</h1>
-	<!-- button swapping colour mode -->
-	<button class="button button-outline" onclick="swapSheet('./style/style.css')">Switch theme mode</button>
-	
+<script>
+ changeTitle("Concordia University");
+		</script>
 	<!-- LOGO -->
 	<img class="displayed" src="logo/concordia-logo.png" alt="concordia.logo" height="300">
 	
@@ -71,8 +33,6 @@
 <h3 id ="ctr"><a href="https://www.google.com/maps/place/Concordia+SGW+Campus,+Montreal,+QC/@45.4951819,-73.5810324,16z/data=!4m5!3m4!1s0x4cc91a6a64ea3d09:0x1649d951ed37f998!8m2!3d45.495746!4d-73.5781092" targer="_blank"> Sir George Williams Campus location</a></h3>
 
 <h3 id="ctr"><a href="https://www.google.com/maps/place/Concordia+University/@45.4581111,-73.6424732,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc9172e1f2873a7:0xdc7052006ff9bf92!8m2!3d45.4581111!4d-73.6402845" target="_blank"> Loyola Campus location</a></h3>
-	
-	
 	
 	<?php include '../share/footer.html'; ?>
 

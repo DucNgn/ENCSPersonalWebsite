@@ -1,5 +1,14 @@
+<?php include './visitCtr/visitInfor.php'; ?>
 <?php include './share/header.html'; ?>
-	
+<?php include './share/body.html' ; ?>
+
+<!-- Activate changing title function -->
+<script>
+changeTitle("Duke's Website");
+</script>
+
+<br />
+<br />
 	<h1 id="ctr">Welcome to Duke's personal website </h1>
 	
 <blockquote id="ctr">
@@ -42,6 +51,5 @@
 	<input class="button button-outline" type ="reset">
   </fieldset>
 </form>
-		
-
+	
 <?php include './share/footer.html'; ?>
