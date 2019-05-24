@@ -1,5 +1,9 @@
 <?php include './EduShare/header.html'; ?>
 <?php include './EduShare/body.html' ; ?>
+
+<script>
+changeTitle("Chu Van An");
+</script>
 	<h1 id="ctr">Chu Van An National High School For The Gifted</h1>
 		
 	<!-- LOGO -->

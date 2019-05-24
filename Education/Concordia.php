@@ -1,6 +1,9 @@
 <?php include './EduShare/header.html'; ?>
 <?php include './EduShare/body.html' ; ?>
 
+<script>
+ changeTitle("Concordia University");
+		</script>
 	<!-- LOGO -->
 	<img class="displayed" src="logo/concordia-logo.png" alt="concordia.logo" height="300">
 	

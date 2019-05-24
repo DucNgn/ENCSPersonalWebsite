@@ -2,6 +2,11 @@
 <?php include './share/header.html'; ?>
 <?php include './share/body.html' ; ?>
 
+<!-- Activate changing title function -->
+<script>
+changeTitle("Duke's Website");
+</script>
+
 <br />
 <br />
 	<h1 id="ctr">Welcome to Duke's personal website </h1>
