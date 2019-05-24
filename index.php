@@ -1,5 +1,9 @@
+<?php include './visitCtr/visitInfor.php'; ?>
 <?php include './share/header.html'; ?>
-	
+<?php include './share/body.html' ; ?>
+
+<br />
+<br />
 	<h1 id="ctr">Welcome to Duke's personal website </h1>
 	
 <blockquote id="ctr">
@@ -42,6 +46,6 @@
 	<input class="button button-outline" type ="reset">
   </fieldset>
 </form>
-		
-
+	
+<p id="visitorInfor"></p>
 <?php include './share/footer.html'; ?>
