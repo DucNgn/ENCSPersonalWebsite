@@ -47,5 +47,4 @@
   </fieldset>
 </form>
 	
-<p id="visitorInfor"></p>
 <?php include './share/footer.html'; ?>
