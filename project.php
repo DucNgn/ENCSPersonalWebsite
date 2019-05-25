@@ -2,6 +2,7 @@
 	  include './share/body.html';
 ?>
 
+
 <!-- PROJECT PAGE 'S STYLE -->
 <link id="pagestyle" rel="stylesheet" type="text/css" href="./projectStyle/style.css">
 
@@ -11,7 +12,7 @@ changeTitle("Duke's Projects");
 </script>
 
 <!-- Floating button -->
-	<a href="../index.php" class="float">
+	<a href="./index.php" class="float">
         <i class="my-float"></i>
     </a>
     <div class="label-container">
@@ -40,6 +41,9 @@ changeTitle("Duke's Projects");
 	<div class="GitHubparallax"></div>
 	<!--END OF PARALLAX EFFECT -->
 <br />
+
+<label id ="ctr"> NO.1: COMP 248: OBJECT-ORIENTED PROGRAMMING I</label>
+<label id ="ctr"><a href="https://github.com/DukeNgn/COMP248-OOP1" target="_blank">PROJECT REPO</a></label>
 
 
 
