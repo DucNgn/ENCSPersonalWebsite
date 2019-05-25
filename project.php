@@ -39,13 +39,29 @@ changeTitle("Duke's Projects");
 <br />
 </div>
 	<div class="GitHubparallax"></div>
-	<!--END OF PARALLAX EFFECT -->
+<!--END OF PARALLAX EFFECT -->
+
 <br />
 
+<!-- PROJECT 1 SHOWCASE: COMP 248 -->
 <label id ="ctr"> NO.1: COMP 248: OBJECT-ORIENTED PROGRAMMING I</label>
 <label id ="ctr"><a href="https://github.com/DukeNgn/COMP248-OOP1" target="_blank">PROJECT REPO</a></label>
 
+<div class="row">
+<div class="column">
+	<img src="./projectStyle/image/COMP248/Instruc.png" alt="COMP248Instruction" style="width:100%">
+	</div>
+<div class="column">
+	<img src="./projectStyle/image/COMP248/COMP248.gif" alt="COMP248ScreenShot.gif" style="width:100%">
+	</div>
+</div>
 
+<h4 id="ctr"> Demo of final project: Qwixx game</h4>
+<!--END OF PROJECT 1 SHOWCASE: COMP 248 -->
 
+<br />
+<br />
+<br />
+<br />
 
 <?php include './share/footer.html' ?>
