@@ -21,7 +21,10 @@ changeTitle("Duke's Projects");
     </div>
 	<!-- END OF FLOATING BUTTON -->
 
+<p id ="holdPoint"></p>
+<br />
 <h1 id="ctr">PROJECTS</h1>
+<br />
 
 <!--PARALLAX EFFECT -->
 	<div class="GitHubparallax"></div>

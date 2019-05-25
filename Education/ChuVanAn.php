@@ -4,6 +4,7 @@
 <script>
 changeTitle("Chu Van An");
 </script>
+<br />
 	<h1 id="ctr">Chu Van An National High School For The Gifted</h1>
 		
 	<!-- LOGO -->

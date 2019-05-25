@@ -1,4 +1,3 @@
-<?php include './visitCtr/visitInfor.php'; ?>
 <?php include './share/header.html'; ?>
 <?php include './share/body.html' ; ?>
 
@@ -26,9 +25,6 @@ changeTitle("Duke's Website");
 
 <br />
 <h2>SOCIAL</h2>
-
-
-
 <br />
 
 <form method="post" action ="RequestMess.php">
