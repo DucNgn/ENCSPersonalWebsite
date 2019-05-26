@@ -131,5 +131,15 @@ changeTitle("Duke's Projects");
 <br />
 <br />
 
+<!-- SHOW CASE SIDE PROJECT PAPER -->
+<label id ="ctr"><h2>SIDE PROJECTS && PAPERS</h2></label>
+<!--showcase 1: extract Dictionary -->
+<h3><strong>MANA 201: Introduction to Business Management</strong></h3>
+<blockquote>A team project with the focus of analysis the busniess model and aspects of AT&T firm </blockquote>
+<h4 id ="ctr"><a href="https://drive.google.com/open?id=1H8emQQJjwcpsMz_Zf2DotgF41EDqlh7l" target="_blank">[Proposal paper]</a></h4>
+<h4 id ="ctr"><a href="https://drive.google.com/open?id=1x_5h9jmiro9t3NSwBmPKjDtEQ2Owu3zG" target="_blank">[Final Essay]</a></h4>
+
+
+
 
 <?php include './share/footer.html' ?>
