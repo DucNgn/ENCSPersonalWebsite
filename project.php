@@ -2,7 +2,6 @@
 	  include './share/body.html';
 ?>
 
-
 <!-- PROJECT PAGE 'S STYLE -->
 <link id="pagestyle" rel="stylesheet" type="text/css" href="./projectStyle/style.css">
 

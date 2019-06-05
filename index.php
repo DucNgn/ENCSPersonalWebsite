@@ -1,6 +1,5 @@
 <?php include './share/header.html'; ?>
 <?php include './share/body.html' ; ?>
-
 <!-- Activate changing title function -->
 <script>
 changeTitle("Duke's Website");
