@@ -26,7 +26,8 @@ changeTitle("Duke's Website");
 <h2>SOCIAL</h2>
 <br />
 
-<form method="post" action ="RequestMess.php">
+<!---  CUSTOMIZED FORM
+<form method="post" action ="https://formspree.io/ductri647@gmail.com">
   <fieldset>
 	 <legend id="ctr"><h3> Leave me a message </h3> </legend>
     <label>Name:</label>
@@ -44,7 +45,7 @@ changeTitle("Duke's Website");
 	 <input type="email" name="email" placeholder="abc@gmail.ca">
 	  
     <label>Message</label>
-    <textarea placeholder="Hi Duke, ..." id="commentField"></textarea>
+    <textarea placeholder="Hi Duke, ..." type="message"></textarea>
 	 
     <div class="float-right">
       <input type="checkbox" id="confirmField">
@@ -56,5 +57,6 @@ changeTitle("Duke's Website");
 	<input class="button button-outline" type ="reset">
   </fieldset>
 </form>
-	
+-->
+
 <?php include './share/footer.html'; ?>
