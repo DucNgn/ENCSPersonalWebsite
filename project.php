@@ -10,16 +10,6 @@
 changeTitle("Duke's Projects");
 </script>
 
-<!-- Floating button -->
-	<a href="./index.php" class="float">
-        <i class="my-float"></i>
-    </a>
-    <div class="label-container">
-    	<div class="label-text"> Home </div>
-    	<i class="fa fa-play label-arrow"></i>
-    </div>
-	<!-- END OF FLOATING BUTTON -->
-
 <p id ="holdPoint"></p>
 <br />
 <h1 id="ctr">PROJECTS</h1>
@@ -121,26 +111,17 @@ changeTitle("Duke's Projects");
 	<li id ="ctr"><a href="http://www.ijssst.info/info/IEEE-Citation-StyleGuide.pdf" target="_blank">IEEE</a></li>
 </ul>
 
-<br />
-
-
 <!-- END OF REFERENCE GENERATOR -->
 
 <!-- END OF PROJECT 2 SHOWCASE: COMP249 -->
-<br />
 <br />
 
 <!-- SHOW CASE SIDE PROJECT PAPER -->
 <label id ="ctr"><h2>SIDE PROJECTS & PAPERS</h2></label>
 <!--showcase 1: extract Dictionary -->
 <h3><strong>MANA 201: Introduction to Business Management</strong></h3>
-<blockquote>A team project with the focus of analysis the business model and successful factors of AT&T firm </blockquote>
+<blockquote>A team project analysis the business model and the key for success of AT&T corporation </blockquote>
 <h4 id ="ctr"><a href="https://drive.google.com/open?id=1H8emQQJjwcpsMz_Zf2DotgF41EDqlh7l" target="_blank">[Proposal paper]</a></h4>
 <h4 id ="ctr"><a href="https://drive.google.com/open?id=1x_5h9jmiro9t3NSwBmPKjDtEQ2Owu3zG" target="_blank">[Final Essay]</a></h4>
-
-<h3><strong>INST 205: Introductory Information Literacy Skills</strong></h3>
-<blockquote>A personal project about the problem of teenage pregnancy </blockquote>
-
-
 
 <?php include './share/footer.html' ?>
