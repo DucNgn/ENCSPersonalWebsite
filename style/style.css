@@ -19,6 +19,11 @@
 	text-align: center;
 }
 
+/* sperated to ensure not affect the nav Bar */
+#bodyWithoutNav {
+	padding: 30 30 10;
+}
+
 /* ALLIGNING IMAGES */
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -38,18 +43,20 @@
 /* NAVIGATION BAR */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
-	padding: 0 30;
-	margin: 30;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+	position: relative;
 }
 
 .container {
+	position: fixed;
 	width: 80%;
 	margin: 0 auto;
 }
 
 header {
+  padding-left: 0;
+  position: fixed;
+  top:0;
+  width: 100%;
   background: #55d6aa;
 }
 

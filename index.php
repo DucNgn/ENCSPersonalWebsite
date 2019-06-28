@@ -23,7 +23,6 @@ changeTitle("Duke's Website");
 	<h3>University: <a href="./Education/Concordia.php">Concordia University</a></h3>
 
 <br />
-<h2>SOCIAL</h2>
 <br />
 
 <!---  CUSTOMIZED FORM

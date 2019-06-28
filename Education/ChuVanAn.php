@@ -1,6 +1,7 @@
 <?php include './EduShare/header.html'; ?>
 <?php include './EduShare/body.html' ; ?>
 
+<div style = "padding: 60 0 0 0;">
 <script>
 changeTitle("Chu Van An");
 </script>
@@ -34,7 +35,7 @@ changeTitle("Chu Van An");
 	<h3 id="ctr"><a href="https://www.google.com/maps/place/Chu+Van+An+High+School/@21.0431451,105.8303634,17z/data=!3m1!4b1!4m5!3m4!1s0x3135aba622cb60ad:0xd7b592fcd06922bd!8m2!3d21.0431451!4d105.8325521" target="_blank" > Location </GG> </a></h3>
 	
 <?php include '../share/footer.html'; ?>
-
+</div>
 
 </body>
 
