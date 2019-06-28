@@ -110,6 +110,14 @@ changeTitle("Duke's Projects");
 </ul>
 
 <!-- END OF REFERENCE GENERATOR -->
+
+<!-- PROJECT showcase: The art of command line -->
+<label id ="ctr"><h2>THE ART OF COMMAND LINE</h2></label>
+<label id ="ctr"><a href="https://github.com/DukeNgn/the-art-of-command-line" target="_blank">REPOSITORY</a></label>
+<blockquote>
+Maintainer, contributor, and translator for an open-source project on GitHub, aims to provide developers with knowledge of command line control and applications on both Unix platforms and Windows in a precise document.
+</blockquote>
+
 <!-- END OF PROJECT 2 SHOWCASE: COMP249 -->
 <br />
 
