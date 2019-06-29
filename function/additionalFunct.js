@@ -1,4 +1,3 @@
 function changeTitle(message) {
-     document.getElementById("title").innerHTML= message;	
+  document.getElementById("title").innerHTML = message;
 }
-
