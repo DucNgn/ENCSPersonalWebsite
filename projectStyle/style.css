@@ -1,8 +1,7 @@
 img.displayed {
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .GitHubparallax {
   /* The image used */
@@ -20,50 +19,50 @@ img.displayed {
 
 /* floating home button */
 
-.label-container{
-	position:fixed;
-	bottom:48px;
-	right:105px;
-	display:table;
-	visibility: hidden;
+.label-container {
+  position: fixed;
+  bottom: 48px;
+  right: 105px;
+  display: table;
+  visibility: hidden;
 }
 
-.label-text{
-	color: burlywood;
-	background:rgba(51,51,51,0.5);
-	display:table-cell;
-	vertical-align:middle;
-	padding:10px;
-	border-radius:3px;
+.label-text {
+  color: burlywood;
+  background: rgba(51, 51, 51, 0.5);
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  border-radius: 3px;
 }
 
-.label-arrow{
-	display:block;
-	vertical-align:middle;
-	color: aliceblue;
-	opacity:0.5;
+.label-arrow {
+  display: block;
+  vertical-align: middle;
+  color: aliceblue;
+  opacity: 0.5;
 }
 
-.float{
-	background-image: url('../Icon/Home.png');
-	background-repeat: no-repeat;
-	background-size: 90px 90px;
-	background-position: center;
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color: blanchedalmond;
-	color:antiquewhite;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+.float {
+  background-image: url("../Icon/Home.png");
+  background-repeat: no-repeat;
+  background-size: 90px 90px;
+  background-position: center;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: blanchedalmond;
+  color: antiquewhite;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
 }
 
-.my-float{
-	font-size:24px;
-	margin-top:18px;
+.my-float {
+  font-size: 24px;
+  margin-top: 18px;
 }
 
 a.float + div.label-container {
@@ -72,7 +71,7 @@ a.float + div.label-container {
   transition: visibility 0s, opacity 0.5s ease;
 }
 
-a.float:hover + div.label-container{
+a.float:hover + div.label-container {
   visibility: visible;
   opacity: 1;
 }
