@@ -24,7 +24,7 @@
 	<div class="CUparallax"></div>
 	<!--END OF PARALLAX EFFECT -->
 	
-	<br></br>
+	<br />
 	
 <h3 id="ctr"><a href="https://www.concordia.ca/" target="_blank">University's Website</a></h3>
 

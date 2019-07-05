@@ -28,7 +28,7 @@ changeTitle("Chu Van An");
 	<div class="CVAparallax"></div>
 	<!--END OF PARALLAX EFFECT -->
 	
-	<br></br>
+	<br />
 
 	<h3 id="ctr"><a href="http://c3chuvanan.edu.vn/ target="_blank"">   School's Webpage   </a></h3>
 
