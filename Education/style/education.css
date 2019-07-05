@@ -34,3 +34,14 @@ img.displayed {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Google map style */
+#map {
+  height: 70%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*-------------------*/

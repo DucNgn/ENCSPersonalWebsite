@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <header>
     <title> Welcome </title>
 
@@ -8,7 +9,26 @@
 </header>
 
 <body>
-    <div>
-        <button class="welcomeButton"><span>Welcome </span></button>
+    <div class="welcome">
+        <!--  CHANGE BACKGROUND SCRIPT FOR WELCOME STAGE
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var urls = ['./images/1.jpg', './images/2.jpg', './images/3.jpg', './images/4.jpg', './images/5.jpg'];
+                var cout = 1;
+                $('body').css('background-image', 'url("' + urls[0] + '")');
+                setInterval(function () {
+                    $('body').css('background-image', 'url("' + urls[cout] + '")');
+                    cout == urls.length - 1 ? cout = 0 : cout++;
+                }, 5000);
+
+            });
+        </script>
+        
+        ---------------->
+
+        <button class="welcomeButton"><span>Welcome</span></button>
     </div>
+
 </body>
