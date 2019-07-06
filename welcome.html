@@ -17,14 +17,19 @@
             $(document).ready(function () {
                 var urls = ['./images/1.jpg', './images/2.jpg', './images/3.jpg', './images/4.jpg', './images/5.jpg'];
                 var cout = 1;
+                
                 $('body').css('background-image', 'url("' + urls[0] + '")');
                 setInterval(function () {
+                    $('body').css('transition', 'background 1s linear');
                     $('body').css('background-image', 'url("' + urls[cout] + '")');
                     cout == urls.length - 1 ? cout = 0 : cout++;
+                    
                     $('body').css('background-position', 'center');
                     $('body').css('background-repeat', 'no-repeat');
                     $('body').css('height', '100%');
-                }, 5000);
+                
+                    
+                }, 7000);
             });
         </script>
         <!---------------->
