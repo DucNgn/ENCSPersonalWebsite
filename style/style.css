@@ -5,6 +5,13 @@ html {
   margin: 0;
 }
 
+#centerMe {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
 /*WELCOME BUTTON */
 .welcomeButton {
   display: inline-block;
