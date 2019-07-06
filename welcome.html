@@ -6,13 +6,13 @@
     <link id="pagestyle" rel="stylesheet" type="text/css" href="style/style.css">
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/color/48/000000/console.png">
+    <!--JQUERRY-->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </header>
 
 <body>
-    <div class="welcome">
-        <!--  CHANGE BACKGROUND SCRIPT FOR WELCOME STAGE
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-       
+    <div>
+        <!-- CHANGING WALLPAPER-->
         <script type="text/javascript">
             $(document).ready(function () {
                 var urls = ['./images/1.jpg', './images/2.jpg', './images/3.jpg', './images/4.jpg', './images/5.jpg'];
@@ -21,14 +21,18 @@
                 setInterval(function () {
                     $('body').css('background-image', 'url("' + urls[cout] + '")');
                     cout == urls.length - 1 ? cout = 0 : cout++;
+                    $('body').css('background-position', 'center');
+                    $('body').css('background-repeat', 'no-repeat');
+                    $('body').css('height', '100%');
                 }, 5000);
-
             });
         </script>
-        
-        ---------------->
+        <!---------------->
 
-        <button class="welcomeButton"><span>Welcome</span></button>
+        <a href="./index.php">
+            <button class="welcomeButton"><span>Welcome</span></button>
+        </a>
+        
     </div>
 
 </body>
