@@ -2,7 +2,6 @@
 	  include './share/body.html';
 ?>
 
-
 <!-- PROJECT PAGE 'S STYLE -->
 <link id="pagestyle" rel="stylesheet" type="text/css" href="./projectStyle/style.css">
 
@@ -10,16 +9,6 @@
 <script>
 changeTitle("Duke's Projects");
 </script>
-
-<!-- Floating button -->
-	<a href="./index.php" class="float">
-        <i class="my-float"></i>
-    </a>
-    <div class="label-container">
-    	<div class="label-text"> Home </div>
-    	<i class="fa fa-play label-arrow"></i>
-    </div>
-	<!-- END OF FLOATING BUTTON -->
 
 <p id ="holdPoint"></p>
 <br />
@@ -31,17 +20,17 @@ changeTitle("Duke's Projects");
     <div>
 <br />
 <label id ="ctr"><h3>GitHub</h3> </label>
-<ul>
+  <ul>
 	<li>Access my <a href="https://github.com/DukeNgn" target="_blank">GitHub</a></li>
 	<blockquote>GitHub is where I keep every project I have done.</blockquote>
     <li><a href="https://dukengn.github.io/" target="_blank">GitHub Page</a> </li>
 	<blockquote>GitHub Page is where I keep track of courses I have completed at school.</blockquote>
 	<li>Learn more about <a href ="https://www.youtube.com/watch?v=w3jLJU7DT5E" target="_blank">GitHub [video] </a></li>
 	<blockquote>"...GitHub is an American web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project... -<a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">Wikipedia</a>-"</blockquote>
-</ul>
+  </ul>
 <br />
-</div>
-	<div class="GitHubparallax"></div>
+    </div>
+	    <div class="GitHubparallax"></div>
 <!--END OF PARALLAX EFFECT -->
 
 <br />
@@ -64,14 +53,11 @@ changeTitle("Duke's Projects");
 
 <h4 id="ctr"> Demo Screenshots</h4>
 
-
 <!--END OF PROJECT 1 SHOWCASE: COMP 248 -->
-
 <br />
 <br />
 
 <!-- PROJECT 2 SHOWCASE: COMP 249 -->
-
 <label id ="ctr"><h2>COMP 249: OBJECT-ORIENTED PROGRAMMING II</h2></label>
 <label id="ctr"><a href="https://github.com/DukeNgn/COMP249-OOP2-with-java">REPOSITORY</a></label>
 
@@ -92,7 +78,7 @@ changeTitle("Duke's Projects");
 <br />
 <!-- END OF EXTRACT DICTIONARY -->
 
-<!-- SHOWCASE 2: FIND, GENERATE REFERENCES -->
+<!-- SHOWCASE 2: GENERATE REFERENCES -->
 <br />
 <h3><strong>NO.2: REFERENCES & CITATION GENERATOR</strong></h3>
 <h4 id ="ctr"><a href="https://github.com/DukeNgn/COMP249-OOP2-with-java/tree/master/authorBibCreator" target="_blank">[Source Code]</a></h4>
@@ -116,30 +102,32 @@ changeTitle("Duke's Projects");
 	<img src="./projectStyle/image/COMP249/IEEE.png" alt="" style="width:100%">
 	 </div>
 </div>
+
 <h5 id ="ctr"> DEMO EXAMPLE OF RESULT IN 2 CITATION FORMATS </h5>
 <ul>
 	<li id ="ctr"> <a href="https://www.acm.org/publications/authors/reference-formatting" target="_blank">ACM (Association for Computing Machinery)</a> </li>
 	<li id ="ctr"><a href="http://www.ijssst.info/info/IEEE-Citation-StyleGuide.pdf" target="_blank">IEEE</a></li>
 </ul>
 
-<br />
-
-
 <!-- END OF REFERENCE GENERATOR -->
+
+<!-- PROJECT showcase: The art of command line -->
+<label id ="ctr"><h2>THE ART OF COMMAND LINE</h2></label>
+<label id ="ctr"><a href="https://github.com/DukeNgn/the-art-of-command-line" target="_blank">REPOSITORY</a></label>
+<blockquote>
+Maintainer, contributor, and translator for an open-source project on GitHub, aims to provide developers with knowledge of command line control and applications on both Unix platforms and Windows in a precise document.
+</blockquote>
 
 <!-- END OF PROJECT 2 SHOWCASE: COMP249 -->
 <br />
-<br />
 
 <!-- SHOW CASE SIDE PROJECT PAPER -->
-<label id ="ctr"><h2>SIDE PROJECTS && PAPERS</h2></label>
-<!--showcase 1: extract Dictionary -->
+<label id ="ctr"><h2>SIDE PROJECTS AND PAPERS</h2></label>
+<!--showcase 1: MANA201 -->
 <h3><strong>MANA 201: Introduction to Business Management</strong></h3>
-<blockquote>A team project with the focus of analysis the busniess model and aspects of AT&T firm </blockquote>
+<blockquote>A team project analysis the business model and the key for success of AT&T corporation </blockquote>
 <h4 id ="ctr"><a href="https://drive.google.com/open?id=1H8emQQJjwcpsMz_Zf2DotgF41EDqlh7l" target="_blank">[Proposal paper]</a></h4>
 <h4 id ="ctr"><a href="https://drive.google.com/open?id=1x_5h9jmiro9t3NSwBmPKjDtEQ2Owu3zG" target="_blank">[Final Essay]</a></h4>
-
-
-
+<!------------------------>
 
 <?php include './share/footer.html' ?>

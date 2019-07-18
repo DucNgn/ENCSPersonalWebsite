@@ -24,7 +24,7 @@
 	<div class="CUparallax"></div>
 	<!--END OF PARALLAX EFFECT -->
 	
-	<br></br>
+	<br />
 	
 <h3 id="ctr"><a href="https://www.concordia.ca/" target="_blank">University's Website</a></h3>
 
@@ -33,9 +33,26 @@
 <h3 id ="ctr"><a href="https://www.google.com/maps/place/Concordia+SGW+Campus,+Montreal,+QC/@45.4951819,-73.5810324,16z/data=!4m5!3m4!1s0x4cc91a6a64ea3d09:0x1649d951ed37f998!8m2!3d45.495746!4d-73.5781092" targer="_blank"> Sir George Williams Campus location</a></h3>
 
 <h3 id="ctr"><a href="https://www.google.com/maps/place/Concordia+University/@45.4581111,-73.6424732,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc9172e1f2873a7:0xdc7052006ff9bf92!8m2!3d45.4581111!4d-73.6402845" target="_blank"> Loyola Campus location</a></h3>
-	
-	<?php include '../share/footer.html'; ?>
+<br />
 
+<!-- GG map field -->
+<div id="map"></div>
+<script>
+		var map;
+		function initMap() {
+			map = new google.maps.Map(document.getElementById('map'), {
+				center: {
+					lat: 45.4965919,
+					lng: -73.5787878
+				},
+				zoom: 18
+			});
+		}
+	</script>
+<!-- ////// -->
+<br />
+	<?php include '../share/footer.html'; ?>
+</div>
 	</body>
 
 </html>
